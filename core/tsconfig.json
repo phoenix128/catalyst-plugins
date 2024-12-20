@@ -38,7 +38,15 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./*"]
+      "~/*": [
+        "./*"
+      ],
+      "@thebigrick/catalyst-pluginizr/*": [
+        "../packages/catalyst-pluginizr/src/*"
+      ],
+      "@payload-config": [
+        "../plugins/payloadcms/src/payload.config.ts"
+      ]
     },
     "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
   },
