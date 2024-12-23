@@ -29,6 +29,8 @@ const updateTsConfig = (): void => {
 
       acc[`${key}/*`] = [`${relativePath}/*`];
 
+      console.log(`Adding path: ${key}/* => ${relativePath}/*`);
+
       return acc;
     },
     {},

@@ -28,6 +28,8 @@ const registerPlugins = (): void => {
         return null;
       }
 
+      console.log(`Registering plugin: ${packageName}`);
+
       return `import '${packageName}/register-plugins';`;
     })
     .filter((importStatement) => importStatement !== null);
