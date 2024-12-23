@@ -44,8 +44,11 @@
       "@thebigrick/catalyst-pluginizr/*": [
         "../packages/catalyst-pluginizr/src/*"
       ],
+      "@thebigrick/catalyst-payloadcms/*": [
+        "../plugins/catalyst-payloadcms/src/*"
+      ],
       "@payload-config": [
-        "../plugins/payloadcms/src/payload.config.ts"
+        "../plugins/catalyst-payloadcms/src/payload.config.ts"
       ]
     },
     "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
