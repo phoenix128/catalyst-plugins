@@ -4,3 +4,6 @@
 [submodule "plugins/payloadcms"]
 	path = plugins/payloadcms
 	url = https://github.com/thebigrick/catalyst-payloadcms.git
+[submodule "plugins/catalyst-payloadcms"]
+	path = plugins/catalyst-payloadcms
+	url = https://github.com/thebigrick/catalyst-payloadcms.git
